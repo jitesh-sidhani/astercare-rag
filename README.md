@@ -654,23 +654,8 @@ Other limitations include:
 
 ---
 
-## 23. Future Improvements
 
-Potential improvements include:
-
-- cross-encoder reranking
-- query decomposition for more complex multi-hop questions
-- larger regression and adversarial evaluation sets
-- automated CI evaluation
-- retrieval observability and tracing
-- handbook versioning
-- structured answer validation
-- document-level access-control policies
-- configurable model selection per environment
-
----
-
-## 24. Quick Start
+## 23. Quick Start
 
 ```powershell
 # 1. Create environment
@@ -697,7 +682,7 @@ python scripts\evaluate.py
 
 ---
 
-## 25. Scope and Disclaimer
+## 24. Scope and Disclaimer
 
 The AsterCare Clinical Diagnosis & Therapeutics Handbook is fictional and non-operational.
 
