@@ -282,10 +282,14 @@
     "id": "eval_020",
     "category": "out_of_scope",
     "question": "What is diabetes mellitus and how is it treated in real-world medicine?",
-    "expected_behavior": "Do not use outside medical knowledge; decline because the supplied AsterCare handbook does not provide that information.",
-    "must_refuse": true,
-    "required_patterns": [
-      "(?i)(does\\s+not\\s+provide|not\\s+provide|insufficient|not\\s+enough).{0,100}(information|context)"
+    "expected_behavior": "Do not use outside medical knowledge; state that the supplied AsterCare handbook context does not provide enough information and that it is fictional/non-operational.",
+    "must_include": [
+      "does not provide enough information",
+      "real-world"
+    ],
+    "expected_source_headings": [],
+    "must_not_include": [
+    "real-world treatment recommendations"
     ]
   }
 ]
