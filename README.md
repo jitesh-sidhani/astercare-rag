@@ -72,9 +72,6 @@ The system therefore combines multiple retrieval and rule-handling mechanisms.
                  Reciprocal Rank Fusion
                            |
                            v
-              Specificity-Aware Reranking
-                           |
-                           v
               Restricted-Content Filter
                            |
                            v
